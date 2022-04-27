@@ -1,11 +1,11 @@
 /* adaptive */
-@media (min-width: 1024) {
+@media screen and (min-width: 1024) {
     .container {
         max-width: 992px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
 
     .container:last-child {
         width: 69%;
@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 768px) {
+@media  screen and (max-width: 768px) {
     .wrapper {
         display: block;
     }
